@@ -22,3 +22,8 @@ let firstName = "bro";
 
 console.log(typeof firstName)
 console.log('youre name is ${firstName}');
+
+let online = false;
+
+// let online = false; is bulian is like a if do this
+
