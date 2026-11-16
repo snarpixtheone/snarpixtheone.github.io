@@ -67,9 +67,7 @@ directions.forEach(direction => {
 });
 
 
-// ======================================
-// 5. UPDATE PLAYER MOVEMENT
-// ======================================
+// updating movement
 
 function updateMovement() {
 
@@ -99,9 +97,7 @@ function updateMovement() {
   y += moveY * speed;
 
 
-  // ======================================
-  // 6. PLAYER BOUNDARIES
-  // ======================================
+  // widdthhhh
 
   const maxX = game.clientWidth - player.offsetWidth;
   const maxY = game.clientHeight - player.offsetHeight;
@@ -110,9 +106,7 @@ function updateMovement() {
   y = Math.max(0, Math.min(y, maxY));
 
 
-  // ======================================
-  // 7. UPDATE IMAGE POSITION
-  // ======================================
+  // update player model position
 
   player.style.left = x + "px";
   player.style.top = y + "px";
@@ -124,16 +118,12 @@ function updateMovement() {
 }
 
 
-// ======================================
-// 8. START THE MOVEMENT SYSTEM
-// ======================================
+// start movment
 
 updateMovement();
 
 
-// ======================================
-// 9. POSITION THE PLAYER INITIALLY
-// ======================================
+// position player initially correctly blah blah
 
 player.style.left = x + "px";
 player.style.top = y + "px";
