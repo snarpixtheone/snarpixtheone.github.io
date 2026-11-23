@@ -11,7 +11,7 @@ let x = 100;
 let y = 100;
 
 // Movement speed
-const speed = 50;
+const speed = 10;
 
 
 // movement moving
