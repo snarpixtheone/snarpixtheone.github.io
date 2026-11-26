@@ -1,1 +1,76 @@
 
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #222;
+}
+
+
+
+
+#shopButton {
+    position: fixed;
+
+    left: 0;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    width: 80px;
+    height: 100px;
+
+    padding: 0;
+    border: none;
+
+    background: transparent;
+
+    cursor: pointer;
+
+    z-index: 10;
+}
+
+
+
+
+#shopButton img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+
+
+
+#shopWindow {
+    position: fixed;
+
+    left: 80px;
+    bottom: 0;
+
+    width: 400px;
+    height: 500px;
+
+    transform: translateX(-120%);
+
+    transition: transform 0.3s ease-out;
+
+    z-index: 5;
+}
+
+
+
+#shopWindow img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+
+
+
+#shopWindow.open {
+    transform: translateX(0);
+}
